@@ -8,6 +8,11 @@ h1 {
   font-size: 26px;
   letter-spacing: 1.5px;
 }
+h5 {
+font-size: 18px;
+letter-spacing: 1.5px;
+}
+
 li {
   list-style: none;
 }
@@ -15,7 +20,7 @@ li {
 .container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #EFEFEF;
@@ -55,10 +60,29 @@ div.thumbnail-items:last-child {
 .info {
   background-color: white;
   padding-left: 15px;
-  padding-right: 30px;
+  padding-right: 15px;
+  min-height: 550px;
 }
 .subtitle {
   color: #98989A;
   font-size: 13px;
   letter-spacing: 2px;
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.rating a:hover {
+  background-color: black;
+  color: white;
+}
+.rating a:clicked {
+  color: black;
+}
+.rating img {
+  height: 21px;
+  width: 80px;
 }
