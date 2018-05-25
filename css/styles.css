@@ -16,7 +16,9 @@ letter-spacing: 1.5px;
 li {
   list-style: none;
 }
-
+a {
+  color: inherit;
+}
 .nav {
   display: flex;
   background-color: black;
@@ -25,15 +27,80 @@ li {
 
 .nav-top {
   display: flex;
-  flex: end;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  height: 32px;
   width: 100%;
   color: #ebebeb;
   font-size: 11px;
   font-weight: 400;
 }
+.nav-mid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-mid-left {
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  padding: 0 15px;
+}
+
+.nav-mid-left img {
+  width: 70px;
+  height: 48px;
+}
+
+.nav-mid-left a {
+  margin: 0 3px;
+  line-height: 45px;
+  vertical-align: baseline;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-mid-left li {
+  padding: 12px 0;
+}
+
+.nav-mid-right {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+#newsletter {
+  color: white;
+  font-weight: 700;
+}
+#newsletter a:hover {
+ background-color: white;
+ color: black;
+}
+.nav-top a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav-top img {
+  height: 16px;
+  width: 16px;
+}
+.nav-top ul:nth-child(3) {
+  background-color: white;
+  color: black;
+}
 
 .map-list {
-  
+  display: flex;
+}
+
+.map-list img {
+  width: 14px;
+  height: 14px;
 }
 
 .container {
@@ -56,9 +123,6 @@ li {
   margin-bottom: 15px;
   flex-direction: column;
   justify-content: space-around;
-}
-div.thumbnail-items:last-child {
-  border-bottom: 2px solid black;
 }
 
 .thumbnail-item {
