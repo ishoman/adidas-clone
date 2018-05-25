@@ -226,3 +226,52 @@ a {
 .shoe-grid-item div:focus {
     border-bottom: 2px solid black;
 }
+
+@media screen and (max-width: 959px) and (min-width: 599px) {
+  .nav-bottom {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  .thumbnails {
+    display:flex;
+    order:-1;
+  }
+  .thumbnail-items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-image {
+    display: flex;
+  }
+
+  .info-content {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: row;
+    order:;
+  }
+
+  .info {
+    display: flex;
+    max-height: 300px;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
