@@ -19,6 +19,7 @@ li {
 a {
   color: inherit;
 }
+
 .nav {
   display: flex;
   background-color: black;
@@ -72,6 +73,25 @@ a {
   padding: 0 15px;
 }
 
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 40px;
+}
+
+.nav-bottom img {
+  height: 24px;
+  width: 24px;
+}
+
+#rightArrow {
+  width: 14px;
+  height: 14px;
+}
+
 #newsletter {
   color: white;
   font-weight: 700;
@@ -96,6 +116,9 @@ a {
 
 .map-list {
   display: flex;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 35px;
 }
 
 .map-list img {
@@ -141,10 +164,18 @@ a {
 }
 
 .info {
+  display: flex;
   background-color: white;
   padding-left: 15px;
   padding-right: 15px;
   min-height: 550px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 450px;
 }
 .subtitle {
   color: #98989A;
@@ -168,6 +199,13 @@ a {
 .rating img {
   height: 21px;
   width: 100px;
+}
+
+.colors:last-child {
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
 }
 
 .shoe-grid{
