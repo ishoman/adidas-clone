@@ -6,7 +6,7 @@
 
 ## Description
 
-_Styled and created using only HTML and CSS, this is a clone of a page on adidas.com meant practice applying grid and flexbox._
+_Styled and created using only HTML and CSS. The prompt for this project was to clone a webpage that incorporates a grid layout. I chose the adidas page for a pair of basketball shoes and cloned it using Flexbox and CSS Grid. It was a fun experience after working with these layouts for a week. I couldn't clone it exactly as Adidas uses all custom fonts, so I chose a standard front from their font stack._
 
 ## Adidas Page
 
@@ -28,7 +28,7 @@ _No known bugs_
 
 ## Support and Contact Details
 
-_Please email me at isaac.shoman@gmail.com with any feedback!_
+_You may email me at isaac.shoman@gmail.com with any questions or feedback_
 
 ## Technologies Used
 
@@ -38,4 +38,4 @@ _Nothing besides basic HTML and CSS was used_
 
 *This website is licensed under an MIT License*
 
-Copyright (c) 2018 **_Matt Miller and Isaac Shoman_**
+Copyright (c) 2018 **_Isaac Shoman_**
